@@ -1,0 +1,4 @@
+111,'Envelopes','100 letter size',11.50
+112,'Post-it #1','3" by 3" 1000 sheets',9.90
+113,'Post-it #2','2" by 2" 1000 sheets',7.90
+114,'Post-it #3','4" by 6" 1000 sheets',13.90
