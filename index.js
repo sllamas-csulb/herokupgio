@@ -18,7 +18,7 @@ const pool = new Pool({
 
 console.log("Successful connection to the database");
 
-const sql_create = `DROP TABLE PRODUCT; CREATE TABLE IF NOT EXISTS PRODUCT (
+const sql_create = `DROP TABLE IF EXISTS PRODUCT; CREATE TABLE IF NOT EXISTS PRODUCT (
   prod_id    	SERIAL PRIMARY KEY,
   prod_name  	VARCHAR(20) NOT NULL,
   prod_desc 	VARCHAR(50),
